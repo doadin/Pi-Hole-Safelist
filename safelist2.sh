@@ -360,17 +360,13 @@ pihole -w -q -nr --comment "Unknown" aax-us-east.amazon-adsystem.com
 pihole -w -q -nr --comment "Unknown" fleshlight.com
 pihole -w -q -nr --comment "Microsoft" settings-win.data.microsoft.com
 pihole -w -q -nr --comment "Microsoft" v10.vortex-win.data.microsoft.com
-#pihole -w -q -nr --comment "Unknown" '(\.|^)phncdn\.com$'
-#pihole -w -q -nr --comment "Omaze Prize Win" (\.|^)omaze\.com$
 pihole -w -q -nr --comment "T-Mobile Tuesday" api.apptentive.com
 pihole -w -q -nr --comment "T-Mobile Tuesday" devices.carnivalmobile.com
-#pihole -w -q -nr --comment "Conference Call Service" (\.|^)pardot\.com$
 pihole -w -q -nr --comment "Microsoft Edge News" api.taboola.com
 pihole -w -q -nr --comment "Battle Net System Survey" telemetry-in.battle.net
 pihole -w -q -nr --comment "test" ipinfo.io
 pihole -w -q -nr --comment "Mo" cb.sailthru.com
 pihole -w -q -nr --comment "T-Mobile Tuesday BK app" rest.iad-03.braze.com
-#pihole -w -q -nr --comment "Battle Net Mobile" (\.|^)googletagmanager\.com$
 pihole -w -q -nr --comment "Microsoft Teams" mobile.pipe.aria.microsoft.com
 pihole -w -q -nr --comment "Symantec Certificate" s1.symcb.com
 pihole -w -q -nr --comment "Symantec Certificate" s2.symcb.com
