@@ -114,9 +114,9 @@ pihole -w app.plex.tv
 pihole -w o1.email.plex.tv  
 pihole -w o2.sg0.plex.tv 
 pihole -w dashboard.plex.tv
-pihole -w gravatar.com - custom login pictures
-pihole -w thetvdb.com - metadata for tv series
-pihole -w themoviedb.com - metadata for movies
+pihole -w gravatar.com
+pihole -w thetvdb.com
+pihole -w themoviedb.com
 pihole -w services.sonarr.tv 
 pihole -w skyhook.sonarr.tv 
 pihole -w download.sonarr.tv 
