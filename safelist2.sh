@@ -107,40 +107,40 @@ pihole --white-regex -q -nr --comment "Skype" s{1..5}.symcb.com
 pihole -w -q -nr --comment "Microsoft Office" officeclient.microsoft.com
 pihole -w -q -nr --comment "Spotify" spclient.wg.spotify.com
 pihole -w -q -nr --comment "Spotify" apresolve.spotify.com
-pihole -w -q -nr --comment "Target's Weekly Ads" weeklyad.target.com
-pihole -w -q -nr --comment "Target's Weekly Ads" m.weeklyad.target.com
-pihole -w -q -nr --comment "Target's Weekly Ads" weeklyad.target.com.edgesuite.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" upload.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" creative.ak.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr0-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr1-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr10-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr2-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr3-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr4-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr5-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr6-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr7-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr8-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" external-lhr9-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" fbcdn-creative-a.akamaihd.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" scontent-lhr3-1.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" scontent.xx.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" scontent.fgdl5-1.fna.fbcdn.net
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" graph.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" b-graph.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" connect.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" cdn.fbsbx.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" api.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" edge-mqtt.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" mqtt.c10r.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" portal.fb.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" star.c10r.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" star-mini.c10r.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" b-api.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" fb.me
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" bigzipfiles.facebook.com
-pihole -w -q -nr --comment "Facebook, Facebook Messenger" l.facebook.com
+pihole -w -q -nr --comment "Targets Weekly Ads" weeklyad.target.com
+pihole -w -q -nr --comment "Targets Weekly Ads" m.weeklyad.target.com
+pihole -w -q -nr --comment "Targets Weekly Ads" weeklyad.target.com.edgesuite.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" upload.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" creative.ak.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr0-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr1-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr10-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr2-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr3-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr4-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr5-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr6-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr7-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr8-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" external-lhr9-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" fbcdn-creative-a.akamaihd.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" scontent-lhr3-1.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" scontent.xx.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" scontent.fgdl5-1.fna.fbcdn.net
+pihole -w -q -nr --comment "Facebook Facebook Messenger" graph.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" b-graph.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" connect.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" cdn.fbsbx.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" api.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" edge-mqtt.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" mqtt.c10r.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" portal.fb.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" star.c10r.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" star-mini.c10r.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" b-api.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" fb.me
+pihole -w -q -nr --comment "Facebook Facebook Messenger" bigzipfiles.facebook.com
+pihole -w -q -nr --comment "Facebook Facebook Messenger" l.facebook.com
 pihole -w -q -nr --comment "DirectTV" directvnow.com
 pihole -w -q -nr --comment "DirectTV" directvapplications.hb.omtrdc.net
 pihole -w -q -nr --comment "DirectTV" s.zkcdn.net
@@ -217,10 +217,10 @@ pihole -w -q -nr --comment "Captive-portal tests" gsp1.apple.com
 pihole -w -q -nr --comment "Captive-portal tests" www.apple.com
 pihole -w -q -nr --comment "Captive-portal tests" www.appleiphonecell.com
 pihole -w -q -nr --comment "Grand Theft Auto V Online PC" prod.telemetry.ros.rockstargames.com
-pihole -w -q -nr --comment "Chevrolet Couldn't browse inventory w/o whitelisting" chevrolet.com
+pihole -w -q -nr --comment "Chevrolet Couldnt browse inventory w/o whitelisting" chevrolet.com
 pihole -w -q -nr --comment "Epic Games Store" tracking.epicgames.com
 pihole -w -q -nr --comment "Red Hat Online Learning subscription required" 79423.analytics.edgekey.net
-pihole -w -q -nr --comment "Lowe's Checkout" assets.adobedtm.com
+pihole -w -q -nr --comment "Lowes Checkout" assets.adobedtm.com
 pihole -w -q -nr --comment "Home Depot Checkout" nexus.ensighten.com
 pihole -w -q -nr --comment "Mozilla Firefox Tracking Protection" tracking-protection.cdn.mozilla.net
 pihole -w -q -nr --comment "Google" 0.client-channel.google.com
@@ -240,7 +240,7 @@ pihole -w -q -nr --comment "Akamai" akamaitechnologies.com
 pihole -w -q -nr --comment "Akamai" akamaized.net
 pihole -w -q -nr --comment "Amazon" amazonaws.com
 pihole -w -q -nr --comment "A Simple Public IP Address API" api.ipify.org
-pihole -w -q -nr --comment "DVD, Blu-ray" api.rlje.net
+pihole -w -q -nr --comment "DVD Blu-ray" api.rlje.net
 pihole -w -q -nr --comment "TED" app-api.ted.com
 pihole -w -q -nr --comment "Google" appsbackup-pa.clients6.google.com
 pihole -w -q -nr --comment "Google" appsbackup-pa.googleapis.com
