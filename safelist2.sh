@@ -5,8 +5,8 @@ pihole -w -q -nr --comment "YouTube history" video-stats.l.google.com
 pihole -w -q -nr --comment "Google Play" android.clients.google.com
 pihole -w -q -nr --comment "Google Keep" reminders-pa.googleapis.com
 pihole -w -q -nr --comment "Google Keep" firestore.googleapis.com
-pihole -w -q -nr --comment "Gmail (Google Mail)" googleapis.l.google.com
-pihole -w -q -nr --comment "Google Chrome (to update on ubuntu)" dl.google.com
+pihole -w -q -nr --comment "Gmail Google Mail" googleapis.l.google.com
+pihole -w -q -nr --comment "Google Chrome to update on ubuntu" dl.google.com
 pihole -w -q -nr --comment "Windows uses this to verify connectivity to Internet" www.msftncsi.com
 pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" outlook.office365.com
 pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" products.office.com
@@ -67,9 +67,9 @@ pihole -w -q -nr --comment "Onedrive" storage.msn.com
 pihole --white-regex -q -nr --comment "Onedrive" *.storage.msn.com
 pihole --white-regex -q -nr --comment "Onedrive" *.*.storage.msn.com
 pihole -w -q -nr --comment "Backup bitlocker recovery key to Microsoft account" g.live.com
-pihole -w -q -nr --comment "Microsoft Store (Windows Store)" dl.delivery.mp.microsoft.com
-pihole -w -q -nr --comment "Microsoft Store (Windows Store)" geo-prod.do.dsp.mp.microsoft.com
-pihole -w -q -nr --comment "Microsoft Store (Windows Store)" displaycatalog.mp.microsoft.com
+pihole -w -q -nr --comment "Microsoft Store Windows Store" dl.delivery.mp.microsoft.com
+pihole -w -q -nr --comment "Microsoft Store Windows Store" geo-prod.do.dsp.mp.microsoft.com
+pihole -w -q -nr --comment "Microsoft Store Windows Store" displaycatalog.mp.microsoft.com
 pihole -w -q -nr --comment "Windows 10 Update" sls.update.microsoft.com.akadns.net
 pihole -w -q -nr --comment "Windows 10 Update" fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 pihole -w -q -nr --comment "Xbox Live" clientconfig.passport.net
@@ -219,7 +219,7 @@ pihole -w -q -nr --comment "Captive-portal tests" www.appleiphonecell.com
 pihole -w -q -nr --comment "Grand Theft Auto V Online PC" prod.telemetry.ros.rockstargames.com
 pihole -w -q -nr --comment "Chevrolet Couldn't browse inventory w/o whitelisting" chevrolet.com
 pihole -w -q -nr --comment "Epic Games Store" tracking.epicgames.com
-pihole -w -q -nr --comment "Red Hat Online Learning (subscription required)" 79423.analytics.edgekey.net
+pihole -w -q -nr --comment "Red Hat Online Learning subscription required" 79423.analytics.edgekey.net
 pihole -w -q -nr --comment "Lowe's Checkout" assets.adobedtm.com
 pihole -w -q -nr --comment "Home Depot Checkout" nexus.ensighten.com
 pihole -w -q -nr --comment "Mozilla Firefox Tracking Protection" tracking-protection.cdn.mozilla.net
