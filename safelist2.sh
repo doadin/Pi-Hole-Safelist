@@ -8,12 +8,12 @@ pihole -w -q -nr --comment "Google Keep" firestore.googleapis.com
 pihole -w -q -nr --comment "Gmail (Google Mail)" googleapis.l.google.com
 pihole -w -q -nr --comment "Google Chrome (to update on ubuntu)" dl.google.com
 pihole -w -q -nr --comment "Windows uses this to verify connectivity to Internet" www.msftncsi.com
-pihole -w -q -nr --comment "Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 569...)" outlook.office365.com
-pihole -w -q -nr --comment "Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 569...)" products.office.com
-pihole -w -q -nr --comment "Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 569...)" c.s-microsoft.com
-pihole -w -q -nr --comment "Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 569...)" i.s-microsoft.com
-pihole -w -q -nr --comment "Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 569...)" login.live.com
-pihole -w -q -nr --comment "Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 569...)" login.microsoftonline.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" outlook.office365.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" products.office.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" c.s-microsoft.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" i.s-microsoft.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" login.live.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" login.microsoftonline.com
 pihole -w -q -nr --comment "Onedrive" onedrive.com
 pihole --white-regex -q -nr --comment "Onedrive" *.onedrive.com
 pihole -w -q -nr --comment "Onedrive" spoprod-a.akamaihd.net
@@ -360,13 +360,17 @@ pihole -w -q -nr --comment "Unknown" aax-us-east.amazon-adsystem.com
 pihole -w -q -nr --comment "Unknown" fleshlight.com
 pihole -w -q -nr --comment "Microsoft" settings-win.data.microsoft.com
 pihole -w -q -nr --comment "Microsoft" v10.vortex-win.data.microsoft.com
+#pihole -w -q -nr --comment "Unknown" '(\.|^)phncdn\.com$'
+#pihole -w -q -nr --comment "Omaze Prize Win" (\.|^)omaze\.com$
 pihole -w -q -nr --comment "T-Mobile Tuesday" api.apptentive.com
 pihole -w -q -nr --comment "T-Mobile Tuesday" devices.carnivalmobile.com
+#pihole -w -q -nr --comment "Conference Call Service" (\.|^)pardot\.com$
 pihole -w -q -nr --comment "Microsoft Edge News" api.taboola.com
 pihole -w -q -nr --comment "Battle Net System Survey" telemetry-in.battle.net
 pihole -w -q -nr --comment "test" ipinfo.io
 pihole -w -q -nr --comment "Mo" cb.sailthru.com
 pihole -w -q -nr --comment "T-Mobile Tuesday BK app" rest.iad-03.braze.com
+#pihole -w -q -nr --comment "Battle Net Mobile" (\.|^)googletagmanager\.com$
 pihole -w -q -nr --comment "Microsoft Teams" mobile.pipe.aria.microsoft.com
 pihole -w -q -nr --comment "Symantec Certificate" s1.symcb.com
 pihole -w -q -nr --comment "Symantec Certificate" s2.symcb.com
