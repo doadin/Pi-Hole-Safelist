@@ -1,4 +1,3 @@
-#!/bin/bash
 pihole -w -q -nr --comment "Google Maps and other Google services" clients4.google.com
 pihole -w -q -nr --comment "Google Maps and other Google services" clients2.google.com
 pihole -w -q -nr --comment "YouTube history" s.youtube.com
@@ -251,10 +250,10 @@ pihole -w -q -nr --comment "The Leading Online Video Platform" brightcove.net
 pihole -w -q -nr --comment "The Leading Online Video Platform" players.brightcove.net
 pihole -w -q -nr --comment "Build your audience and grow your brand on social media" bufferapp.com
 pihole -w -q -nr --comment "Cloudflare" cdn.cloudflare.net
-pihole -w -q -nr --comment "?" cdn.embedly.com
-pihole -w -q -nr --comment "?" cdn.optimizely.com
-pihole -w -q -nr --comment "?" cdn2.optimizely.com
-pihole -w -q -nr --comment "?" cdn3.optimizely.com
+pihole -w -q -nr --comment "Unknown" cdn.embedly.com
+pihole -w -q -nr --comment "Unknown" cdn.optimizely.com
+pihole -w -q -nr --comment "Unknown" cdn2.optimizely.com
+pihole -w -q -nr --comment "Unknown" cdn3.optimizely.com
 pihole -w -q -nr --comment "Cloudflare" cdnjs.cloudflare.com
 pihole -w -q -nr --comment "Google" clients1.google.com
 pihole -w -q -nr --comment "Google" clients5.google.com
@@ -283,8 +282,8 @@ pihole -w -q -nr --comment "Google Hangouts" instantmessaging-pa.googleapis.com
 pihole -w -q -nr --comment "Conversational Relationship Platform" intercom.io
 pihole -w -q -nr --comment "Bitly URL Shortener" j.mp
 pihole -w -q -nr --comment "jquery" jquery.com
-pihole -w -q -nr --comment "?" jsdelivr.net
-pihole -w -q -nr --comment "?" keystone.mwbsys.com
+pihole -w -q -nr --comment "Unknown" jsdelivr.net
+pihole -w -q -nr --comment "Unknown" keystone.mwbsys.com
 pihole -w -q -nr --comment "LastFM" lastfm-img2.akamaized.net
 pihole -w -q -nr --comment "Microsoft" live.com
 pihole -w -q -nr --comment "Aliexpress" login.aliexpress.com
@@ -293,7 +292,7 @@ pihole -w -q -nr --comment "Plex" meta-db-worker02.pop.ric.plex.bz
 pihole -w -q -nr --comment "Microsoft" microsoftonline.com
 pihole -w -q -nr --comment "Plex" my.plexapp.com
 pihole -w -q -nr --comment "Office" nexusrules.officeapps.live.com
-pihole -w -q -nr --comment "?" npr-news.streaming.adswizz.com
+pihole -w -q -nr --comment "Unknown" npr-news.streaming.adswizz.com
 pihole -w -q -nr --comment "NO-IP" no-ip.com
 pihole -w -q -nr --comment "Apple" ocsp.apple.com
 pihole -w -q -nr --comment "Office" office.com
@@ -310,24 +309,24 @@ pihole -w -q -nr --comment "Shopify" s.shopify.com
 pihole -w -q -nr --comment "YouTube" s.ytimg.com
 pihole -w -q -nr --comment "WordPress" s1.wp.com
 pihole -w -q -nr --comment "YouTube" s2.youtube.com
-pihole -w -q -nr --comment "?" s3.amazonaws.com
-pihole -w -q -nr --comment "?" secure.avangate.com
-pihole -w -q -nr --comment "?" secure.brightcove.com
+pihole -w -q -nr --comment "Unknown" s3.amazonaws.com
+pihole -w -q -nr --comment "Unknown" secure.avangate.com
+pihole -w -q -nr --comment "Unknown" secure.brightcove.com
 pihole -w -q -nr --comment "Surveys" secure.surveymonkey.com
-pihole -w -q -nr --comment "?" ssl.p.jwpcdn.com
+pihole -w -q -nr --comment "Unknown" ssl.p.jwpcdn.com
 pihole -w -q -nr --comment "Twitter" t.co
 pihole -w -q -nr --comment "WordPress Chat Plugin" tawk.to
 pihole -w -q -nr --comment "TED" tedcdn.com
 pihole -w -q -nr --comment "tinyurl" tinyurl.com
-pihole -w -q -nr --comment "?" traffic.libsyn.com
+pihole -w -q -nr --comment "Unknown" traffic.libsyn.com
 pihole -w -q -nr --comment "twitter" twimg.com
 pihole -w -q -nr --comment "twitter" twitter.com
 pihole -w -q -nr --comment "Shopify" v.shopify.com
 pihole -w -q -nr --comment "Microsoft" win10.ipv6.microsoft.com
 pihole -w -q -nr --comment "WordPress" wordpress.com
 pihole -w -q -nr --comment "WordPress" wp.com
-pihole -w -q -nr --comment "?" ws.audioscrobbler.com
-pihole -w -q -nr --comment "?" dataplicity.com
+pihole -w -q -nr --comment "Unknown" ws.audioscrobbler.com
+pihole -w -q -nr --comment "Unknown" dataplicity.com
 pihole -w -q -nr --comment "Google" www.googleapis.com
 pihole -w -q -nr --comment "No-IP" www.no-ip.com
 pihole -w -q -nr --comment "YouTube" www.youtube-nocookie.com
@@ -344,34 +343,34 @@ pihole -w -q -nr --comment "Mine XMR" www.minexmr.com
 pihole -w -q -nr --comment "Mine XMR" minexmr.com
 pihole -w -q -nr --comment "Mine XMR" ca.minexmr.com
 pihole -w -q -nr --comment "Twitch" countess.twitch.tv
-pihole -w -q -nr --comment "?" s.amazon-adsystem.com
+pihole -w -q -nr --comment "Unknown" s.amazon-adsystem.com
 pihole -w -q -nr --comment "Twitch" fan.twitch.tv
 pihole -w -q -nr --comment "Twitch" mp.twitch.tv
 pihole -w -q -nr --comment "Twitch" spade.twitch.tv
 pihole -w -q -nr --comment "Twitch" client-event-reporter.twitch.tv
 pihole -w -q -nr --comment "Twitch" deviceidshare.twitch.tv
 pihole -w -q -nr --comment "Twitch" pubster.twitch.tv
-pihole -w -q -nr --comment "?" c.amazon-adsystem.com
-pihole -w -q -nr --comment "?" static-cdn.jtvnw.net
+pihole -w -q -nr --comment "Unknown" c.amazon-adsystem.com
+pihole -w -q -nr --comment "Unknown" static-cdn.jtvnw.net
 pihole -w -q -nr --comment "Paypal" t.paypal.com
 pihole -w -q -nr --comment "Paypal" b.stats.paypal.com
-pihole -w -q -nr --comment "?" imgadult.com
-pihole -w -q -nr --comment "?" amazon-adsystem.com
-pihole -w -q -nr --comment "?" aax-us-east.amazon-adsystem.com
-pihole -w -q -nr --comment "?" fleshlight.com
+pihole -w -q -nr --comment "Unknown" imgadult.com
+pihole -w -q -nr --comment "Unknown" amazon-adsystem.com
+pihole -w -q -nr --comment "Unknown" aax-us-east.amazon-adsystem.com
+pihole -w -q -nr --comment "Unknown" fleshlight.com
 pihole -w -q -nr --comment "Microsoft" settings-win.data.microsoft.com
 pihole -w -q -nr --comment "Microsoft" v10.vortex-win.data.microsoft.com
-pihole -w -q -nr --comment "?" (\.|^)phncdn\.com$
-pihole -w -q -nr --comment "Omaze Prize Win" (\.|^)omaze\.com$
+#pihole -w -q -nr --comment "Unknown" '(\.|^)phncdn\.com$'
+#pihole -w -q -nr --comment "Omaze Prize Win" (\.|^)omaze\.com$
 pihole -w -q -nr --comment "T-Mobile Tuesday" api.apptentive.com
 pihole -w -q -nr --comment "T-Mobile Tuesday" devices.carnivalmobile.com
-pihole -w -q -nr --comment "Conference Call Service" (\.|^)pardot\.com$
+#pihole -w -q -nr --comment "Conference Call Service" (\.|^)pardot\.com$
 pihole -w -q -nr --comment "Microsoft Edge News" api.taboola.com
 pihole -w -q -nr --comment "Battle Net System Survey" telemetry-in.battle.net
 pihole -w -q -nr --comment "test" ipinfo.io
 pihole -w -q -nr --comment "Mo" cb.sailthru.com
 pihole -w -q -nr --comment "T-Mobile Tuesday BK app" rest.iad-03.braze.com
-pihole -w -q -nr --comment "Battle Net Mobile" (\.|^)googletagmanager\.com$
+#pihole -w -q -nr --comment "Battle Net Mobile" (\.|^)googletagmanager\.com$
 pihole -w -q -nr --comment "Microsoft Teams" mobile.pipe.aria.microsoft.com
 pihole -w -q -nr --comment "Symantec Certificate" s1.symcb.com
 pihole -w -q -nr --comment "Symantec Certificate" s2.symcb.com
