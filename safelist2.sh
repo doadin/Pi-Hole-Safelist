@@ -103,7 +103,7 @@ pihole -w -q -nr --comment "Skype" pricelist.skype.com
 pihole -w -q -nr --comment "Skype" apps.skype.com
 pihole -w -q -nr --comment "Skype" m.hotmail.com
 pihole -w -q -nr --comment "Skype" sa.symcb.com
-pihole --white-regex -q -nr --comment "Skype" s{1..5}.symcb.com
+pihole --white-regex --comment "Skype" s{1..5}.symcb.com
 pihole -w -q -nr --comment "Microsoft Office" officeclient.microsoft.com
 pihole -w -q -nr --comment "Spotify" spclient.wg.spotify.com
 pihole -w -q -nr --comment "Spotify" apresolve.spotify.com
@@ -368,8 +368,7 @@ pihole -w -q -nr --comment "test" ipinfo.io
 pihole -w -q -nr --comment "Mo" cb.sailthru.com
 pihole -w -q -nr --comment "T-Mobile Tuesday BK app" rest.iad-03.braze.com
 pihole -w -q -nr --comment "Microsoft Teams" mobile.pipe.aria.microsoft.com
-pihole -w -q -nr --comment "Symantec Certificate" s1.symcb.com
-pihole -w -q -nr --comment "Symantec Certificate" s2.symcb.com
-pihole -w -q -nr --comment "Symantec Certificate" s3.symcb.com
-pihole -w -q -nr --comment "Symantec Certificate" s4.symcb.com
-pihole -w -q -nr --comment "Symantec Certificate" s5.symcb.com
+pihole -w -q -nr --comment "Conference Call Service" "(\.|^)pardot\.com$"
+pihole -w -q -nr --comment "Battle Net Mobile" "(\.|^)googletagmanager\.com$"
+pihole -w -q -nr --comment "Omaze Prize Win" "(\.|^)omaze\.com$"
+pihole -w -q -nr --comment "Unknown" "(\.|^)phncdn\.com$"
