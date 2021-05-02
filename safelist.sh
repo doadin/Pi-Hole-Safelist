@@ -213,6 +213,8 @@ pihole -w -q -nr assets.adobedtm.com
 pihole -w -q -nr nexus.ensighten.com
 #Mozilla Firefox Tracking Protection
 pihole -w -q -nr tracking-protection.cdn.mozilla.net
+#Yahoo Page Redirects
+pihole -w -q -nr beap.gemini.yahoo.com
 
 #Restart DNS
 pihole restartdns
