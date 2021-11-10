@@ -372,3 +372,36 @@ pihole -w -q -nr --comment "Conference Call Service" "(\.|^)pardot\.com$"
 pihole -w -q -nr --comment "Battle Net Mobile" "(\.|^)googletagmanager\.com$"
 pihole -w -q -nr --comment "Omaze Prize Win" "(\.|^)omaze\.com$"
 pihole -w -q -nr --comment "Unknown" "(\.|^)phncdn\.com$"
+pihole -w -q -nr --comment "Battle Net Mobile" "(\.|^)googletagmanager\.com$"
+pihole -w -q -nr --comment "Conference Call Service" "(\.|^)pardot\.com$"
+pihole -w -q -nr --comment "Google Chrome to update on ubuntu" dl.google.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" products.office.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" c.s-microsoft.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" i.s-microsoft.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" login.live.com
+pihole -w -q -nr --comment "Microsoft Web Pages Outlook Office365 Live Microsoft.com 569" login.microsoftonline.com
+pihole -w -q -nr --comment "(\.|^)googleadservices\.com$"
+pihole -w -q -nr --comment "Unknown" gleam.io
+pihole -w -q -nr --comment "Added from Query Log" mobile.eum-appdynamics.com
+pihole -w -q -nr --comment "Added from Query Log" comcast.demdex.net
+pihole -w -q -nr --comment "honey redirect" "(\.|^)ojrq\.net$"
+pihole -w -q -nr --comment "Apps Startup Tracking" launches.appsflyer.com
+pihole -w -q -nr --comment "go.androidplice.com" go.skimresources.com
+pihole -w -q -nr --comment "Unknown" clickserve.dartsearch.net
+pihole -w -q -nr --comment "appsflyer.com t and events subdomain" "(\.|^)appsflyer\.com$"
+pihole -w -q -nr --comment "Lowes" "(\.|^)jdoqocy\.com$"
+pihole -w -q -nr --comment "(\.|^)amazon-adsystem\.com$"
+pihole -w -q -nr --comment "Unknown" ad.doubleclick.net
+pihole -w -q -nr --comment "Unknown" beap.gemini.yahoo.com
+pihole -w -q -nr --comment "(\.|^)onesignal\.com$"
+pihole -w -q -nr --comment "Unknown" redirect.viglink.com
+pihole -w -q -nr --comment "google shopping ad" d.agkn.com
+pihole -w -q -nr --comment "tiktok login captcha"mon-va.byteoversea.com
+pihole -w -q -nr --comment "Added from Query Log" drfdisvc.walmart.com
+pihole -w -q -nr --comment "Added from Query Log" analytics.mobile.walmart.com
+pihole -w -q -nr --comment "Added from Query Log" telemetry.servers.getgo.com
+pihole -w -q -nr --comment "google play" beacons.gvt2.com
+pihole -w -q -nr --comment "google update" "(\.|^)connectivitycheck\.gstatic\.com$" 
+pihole -w -q -nr --comment "google update" "(\.|^)beacons\.gcp\.gvt2\.com$"
+
+
